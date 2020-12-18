@@ -1,12 +1,15 @@
 {
-  "name": "trace-deps",
-  "version": "0.3.6",
+  "name": "@smolltd/trace-deps",
+  "version": "0.3.6-1",
   "description": "A dependency tracing tool.",
   "main": "index.js",
   "bin": {
     "trace-deps": "./bin/trace-deps.js"
   },
-  "repository": "https://github.com/FormidableLabs/trace-deps",
+  "repository": "https://github.com/smolltd/trace-deps",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "Ryan Roemer <ryan.roemer@formidable.com>",
   "license": "MIT",
   "keywords": [
